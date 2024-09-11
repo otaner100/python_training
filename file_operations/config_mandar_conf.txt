@@ -1,0 +1,6 @@
+conf t
+inter g0/4
+no shut
+end
+show run
+end
