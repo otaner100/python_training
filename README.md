@@ -1,2 +1,1 @@
-# python_training
-## teste
+# python_training - Adm redes
