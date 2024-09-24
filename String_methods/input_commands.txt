@@ -1,2 +1,2 @@
-show version
-show ip int bri
+show int ip bri
+show ip version

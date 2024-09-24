@@ -24,7 +24,7 @@ username = "admin"
 
 '''join''' # especifica oq sera a jncao da lista
 list1 = ["renato", "asterio", "lima"]
-print('-'.join(list1))
+print(' '.join(list1))
 
 '''ljust''' # adiciona 7 espaçoes entre abc e tudo bem
 print("abc".ljust(7), "tudo bem")

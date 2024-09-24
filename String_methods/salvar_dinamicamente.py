@@ -20,7 +20,7 @@ def executor_command(username, password, roteador, comandos):
         device_invokeSSH.send("terminal len 0\n")
 
         data_atual = datetime.datetime.now().replace(microsecond=0) # salva na variavel data_atual
-        for cmd in enumerate(comando, start=1):
+        for cmd in enumerate(comando, start=1): # enumera os comando fazendo startar pelo 1 e nao pelo 0
             file_system = f"{data_atual}_{cmd[0]}_{cmd[1]}".replace(' ','_').strip()
             with open (file_system, 'w') as cmd_data:
                 device_invokeSSH.send(f"{cmd[1]}\n")
